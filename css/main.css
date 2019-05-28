@@ -1,0 +1,42 @@
+.section-search input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 80% !important;
+    border: 3px solid #f4f4f4 !important;
+}
+
+.section-follow .fa-4x {
+    margin: 5px 10px;
+}
+
+#mobile-nav ul li {
+    background-color: #fff !important;
+}
+
+.sidenav li>a {
+    background-color: orange !important;
+    text-align: center;
+    display: block;
+    transition: all 0.8s ease-in-out;
+
+}
+
+.sidenav li>a:hover {
+    background: #007 !important;
+    color: #fff;
+}
+
+/*loading #######################*/
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #60e;
+	
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
